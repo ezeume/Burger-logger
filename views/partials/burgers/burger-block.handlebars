@@ -1,8 +1,9 @@
 <li>
 	{{burger_name}}
-
+	{{#unless devoured}}
 	<button class="change-sleep" data-id="{{id}}" data-newsleep="{{eaten}}">
-		{{#if eaten}}Order Again!{{else}}Order UP!{{/if}}
+	Order UP!
 	</button>
+	{{/unless}}
 	
 </li>

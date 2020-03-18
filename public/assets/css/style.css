@@ -30,3 +30,12 @@ li {
 .newBurger{
   clear: both;
 }
+
+.main{
+  background-color: rgb(240, 186, 85);
+}
+
+.header{
+  background-color: orangered;
+  color: antiquewhite;
+}
